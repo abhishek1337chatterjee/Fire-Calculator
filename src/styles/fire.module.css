@@ -1,0 +1,44 @@
+.main__div{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: black;
+    height: 500px;
+    margin: 2rem;
+}
+.main__div>h3{
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+}
+.secondMain__div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.secondMain__div>div{
+    border:2px solid white;
+    padding: 1rem;
+}
+.secondMain__div>div:nth-child(1){
+    width: 20%;
+}
+.secondMain__div>div:nth-child(2){
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+.secondMain__div>div:nth-child(1)>input{
+    width: 90%;
+    margin-top: 1rem;
+    background-color: bisque;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.secondMain__div>div:nth-child(1)>button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 96%;
+    background-color: aqua;
+}

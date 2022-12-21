@@ -1,0 +1,22 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: #0000003d 0px 3px 8px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    
+}
